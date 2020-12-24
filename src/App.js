@@ -14,7 +14,7 @@ const App =()=> {
   const url = "https://www.omdbapi.com/?apikey=dfe6d885"; 
   /*const getData = async =>{
     const data = await axios.get(url + "&s=" + state.s)
-    console.log(data);
+    console.log(data)
   }*/
   const search = (e) =>{
     if (e.key === "Enter") {
